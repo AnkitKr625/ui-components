@@ -1,5 +1,30 @@
-# Vue 3 + Vite
+# UI Components
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Vue 3 project for reusable Dropdown component.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Features
+
+- Multi level Nested options
+- Debounced search (leaf match)
+- Disabled option support
+- Icons support
+
+## Install
+
+```bash
+npm install
+```
+
+## Dev
+
+```bash
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+---
