@@ -1,5 +1,10 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import { createApp } from "vue";
+import "./style.css";
+import App from "./App.vue";
+import { registerIcons } from "./plugins/icons";
 
-createApp(App).mount('#app')
+const app = createApp(App);
+
+registerIcons(app);
+
+app.mount("#app");
